@@ -60,48 +60,6 @@
         </table>
     </div>
 </div>
-<%--<form action="/products" class="form-inline ">--%>
-<%--    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="findName">--%>
-<%--    <button class="btn btn-success" type="submit">search by name</button>--%>
-<%--</form>--%>
-<%--<table class="table table-striped">--%>
-<%--    <thead>--%>
-<%--    <tr>--%>
-<%--        <th scope="col">ID</th>--%>
-<%--        <th scope="col">NAME</th>--%>
-<%--        <th scope="col">PRICE</th>--%>
-<%--        <th scope="col">QUANTITY</th>--%>
-<%--        <th scope="col">SALE</th>--%>
-<%--    </tr>--%>
-<%--    </thead>--%>
-<%--            <tbody>--%>
-<%--<c:forEach items="${pro}" var="pr">--%>
-
-<%--    <table class="table table-striped">--%>
-<%--&lt;%&ndash;        <tbody>&ndash;%&gt;--%>
-<%--        <tr>--%>
-<%--            <th scope="row"></th>--%>
-<%--            <td>${pr.id}</td>--%>
-<%--            <td>${pr.name}</td>--%>
-<%--            <td>${pr.price}</td>--%>
-<%--            <td>${pr.quantity}</td>--%>
-<%--            <td>--%>
-<%--                <c:if test="${pr.price>200}">Khuyen mai 10%</c:if>--%>
-<%--                <c:if test="${pr.price<200}">Khuyen mai 20%</c:if>--%>
-<%--            </td>--%>
-<%--        </tr>--%>
-<%--&lt;%&ndash;        </tbody>&ndash;%&gt;--%>
-<%--    </table>--%>
-
-<%--&lt;%&ndash;    <h1>${pr.id},${pr.name},${pr.price},${pr.quantity}&ndash;%&gt;--%>
-<%--&lt;%&ndash;        <h2>&ndash;%&gt;--%>
-<%--&lt;%&ndash;        <c:if test="${pr.price>200}">Khuyen mai 10%</c:if>&ndash;%&gt;--%>
-<%--&lt;%&ndash;        <c:if test="${pr.price<200}">Khuyen mai 20%</c:if>&ndash;%&gt;--%>
-<%--&lt;%&ndash;        </h2>&ndash;%&gt;--%>
-<%--&lt;%&ndash;    </h1>&ndash;%&gt;--%>
-<%--</c:forEach>--%>
-<%--        </tbody>--%>
-
 
 </body>
 </html>
